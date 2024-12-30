@@ -1,0 +1,36 @@
+<!-- TASK II:To Do App -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TASK II:To Do App</title>
+  <link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+<body>
+  <h2># Here's your To Do List..</h2>
+  <div class="container">
+    <div class="form-container">
+      <form id="list-form">
+        <input type="text" id="list-title" placeholder="Title" required>
+        <textarea id="list-description" placeholder="Description"></textarea>
+        <button class="add" type="submit" style="font-family:cursive">Add Your Task</button>
+      </form>
+    </div>
+    <div class="lists-container">
+      <div class="list" id="pending-list">
+        <h3>Pending List :(</h3>
+        <ul id="pending-tasks">
+
+        </ul>
+      </div>
+      <div class="list" id="completed-list">
+        <h3>Completed List :)</h3>
+        <ul id="completed-tasks">
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="events.js"></script>
+</body>
+</html>
